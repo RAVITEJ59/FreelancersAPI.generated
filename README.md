@@ -27,3 +27,18 @@ Mappers: This folder contain classes responsible for mapping between data models
 * POST api/FreelancersAPI: Creates a new freelance user record.
 * PUT api/FreelancersAPI/{UserId}: Updates an existing freelance user record.
 * DELETE api/FreelancersAPI/{UserId}: Deletes a freelance user record.
+
+*Running the API:*
+
+*Prerequisites:*
+Ensure you have Visual Studio (or a similar IDE) installed with the ASP.NET and web development workload.
+Have SQL Server or a compatible database management system set up.
+Clone or download the project.
+Open the project in Visual Studio.
+Configure the connection string:
+Locate the appsettings.json file (usually in the root directory).
+Update the ConnectionStrings section with your actual database connection string details.
+Run the project:
+Set the project as the startup project.
+Press F5 or use the "Run" menu to start the API.
+The default base URL for the API will typically be http://localhost:<port>/api/FreelancersAPI, where <port> is the port number assigned during startup (usually 5000).
