@@ -19,3 +19,11 @@ Data: This folder houses the FreelanceUser data model class and likely the Appli
 DTOs (Data Transfer Objects): This folder contain classes representing the data exchanged between the API and the client application. These DTOs help decouple the API from the specific data format used by the client.
 Interfaces: This folder contain interfaces defining the functionalities of repositories and other services used by the API. These interfaces promote loose coupling and testability.
 Mappers: This folder contain classes responsible for mapping between data models and DTOs.
+
+**API Endpoints:**
+
+GET api/FreelancersAPI: Retrieves a list of all freelance user records.
+GET api/FreelancersAPI/{UserId}: Fetches a specific freelance user record by its unique ID.
+POST api/FreelancersAPI: Creates a new freelance user record.
+PUT api/FreelancersAPI/{UserId}: Updates an existing freelance user record.
+DELETE api/FreelancersAPI/{UserId}: Deletes a freelance user record.
