@@ -22,8 +22,8 @@ Mappers: This folder contain classes responsible for mapping between data models
 
 **API Endpoints:**
 
-GET api/FreelancersAPI: Retrieves a list of all freelance user records.
-GET api/FreelancersAPI/{UserId}: Fetches a specific freelance user record by its unique ID.
-POST api/FreelancersAPI: Creates a new freelance user record.
-PUT api/FreelancersAPI/{UserId}: Updates an existing freelance user record.
-DELETE api/FreelancersAPI/{UserId}: Deletes a freelance user record.
+* GET api/FreelancersAPI: Retrieves a list of all freelance user records.
+* GET api/FreelancersAPI/{UserId}: Fetches a specific freelance user record by its unique ID.
+* POST api/FreelancersAPI: Creates a new freelance user record.
+* PUT api/FreelancersAPI/{UserId}: Updates an existing freelance user record.
+* DELETE api/FreelancersAPI/{UserId}: Deletes a freelance user record.
