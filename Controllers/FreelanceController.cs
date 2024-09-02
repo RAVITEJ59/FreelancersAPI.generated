@@ -21,7 +21,7 @@ namespace FreelancersAPI.Controllers
             _context = context;
         }
         
-        [HttpGet] //Get All Records
+        [HttpGet] //Get All Freelance User Records
         public async Task<IActionResult> GetAllAsync()
         {
             if(!ModelState.IsValid)
